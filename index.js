@@ -41,4 +41,4 @@ app.post('/login',async(req,res) => {
     }
 })
 
-app.listen(4000)
+app.listen(process.env.PORT||4000)
